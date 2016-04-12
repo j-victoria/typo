@@ -202,3 +202,7 @@ describe CategoriesController, "SEO Options" do
     response.should_not have_selector(expected)
   end
 end
+
+describe CategoriesController, "#new" do
+  
+end
